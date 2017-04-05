@@ -28,6 +28,12 @@
                 <configuration>
                     <vendor>Monkey Business Games</vendor>
                     <mainClass>org.ea.games.Launcher</mainClass>
+                    <verbose>true</verbose>
+                    <appName>SimplyPlatform</appName>
+                    <bundleArguments>
+                        <jnlp.includeDT>true</jnlp.includeDT>
+                        <jnlp.outfile>SimplyPlatform</jnlp.outfile>
+                    </bundleArguments>
                 </configuration>
             </plugin>
         </plugins>

@@ -17,7 +17,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Launcher extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -40,8 +40,9 @@ public class Main extends Application {
         gc.fillText( "Hello, World!", 60, 50 );
         gc.strokeText( "Hello, World!", 60, 50 );
 
-        Image earth = new Image( "earth.png" );
-        gc.drawImage( earth, 180, 100 );
+        Image gb_image = new Image( "gb_walk.png" );
+
+        gc.drawImage( gb_image, 180, 100 );
 
         primaryStage.show();
     }
